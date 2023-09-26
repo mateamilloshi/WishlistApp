@@ -6,6 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/wishlistimage"
+        android:scaleType="centerCrop" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/list_items"
         android:layout_width="0dp"
